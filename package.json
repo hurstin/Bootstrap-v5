@@ -1,0 +1,36 @@
+{
+  "name": "bootstrap-v5",
+  "version": "1.0.0",
+  "description": "learning bootstrap v5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:dist/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Okechukwu Augustine",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.84.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.26.8",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "autoprefixer": "^10.4.20",
+    "bootstrap": "^5.3.3",
+    "browser-sync": "^3.0.3",
+    "cssnano": "^7.0.6",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^6.0.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.5.1",
+    "postcss-cli": "^11.0.0"
+  }
+}
